@@ -1,0 +1,26 @@
+[
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-std=c99", 
+            "-D_XOPEN_SOURCE=600", 
+            "-D_DEFAULT_SOURCE", 
+            "-g", 
+            "-I../lib", 
+            "-pedantic", 
+            "-Wall", 
+            "-W", 
+            "-Wmissing-prototypes", 
+            "-Wno-sign-compare", 
+            "-Wno-unused-parameter", 
+            "../libtlpi.a", 
+            "../libtlpi.a", 
+            "-o", 
+            "copy", 
+            "copy.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_linux_programming_interface/fileio", 
+        "file": "copy.c"
+    }
+]
