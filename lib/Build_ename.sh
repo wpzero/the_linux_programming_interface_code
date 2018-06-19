@@ -34,13 +34,13 @@ BEGIN {
         for (k in synonym)
             if (synonym[k] == $1) ename = ename "/" k;
  
-            line = line ", ";
-            if (length(line ename) > line_len || last == 1) {
-                print line;
-                line = "    /* " last " */ ";
-                line = sprintf("    /* %3d */ ", last);;
-            }
-            line = line "\"" ename "\"" ;
+        line = line ", ";
+        if (length(line ename) > line_len || last == 1) {
+           print line;
+           line = "    /* " last " */ ";
+           line = sprintf("    /* %3d */ ", last);;
+        }
+        line = line "\"" ename "\"" ;
     }
 }
 END {
